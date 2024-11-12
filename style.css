@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* media --------------------- */
+@media (max-width: 576px) {
+  .heading {
+    font-size: 24px !important;
+  }
+  .lastpara{
+    font-size: 13px!important;
+  }
+  .para1 {
+    font-size: 18px !important;
+    text-align: center !important;
+    letter-spacing: -1px !important;
+  }
+  .ulbtn {
+    justify-content: center !important;
+    margin-left: 0% !important;
+  }
+  .head2 {
+    font-size: 23px !important;
+  }
+  .he {
+    font-size: 24px !important;
+    padding-top: 20px !important;
+  }
+  .spantag {
+    font-size: 30px !important;
+    line-height: 60px !important;
+  }
+  .img1 {
+    height: 37vh !important;
+    margin-top: 20px !important;
+  }
+  .h {
+    font-size: 19px !important;
+    text-align: center !important;
+  }
+  .p1 {
+    font-size: 10px !important;
+    text-align: center !important;
+  }
+  .butt1 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .h3h {
+    font-size: 17.9px !important;
+    text-align: center !important;
+  }
+  .p11 {
+    font-size: 13px !important;
+    text-align: center !important;
+  }
+  .inp {
+    width: 91% !important;
+    margin-left: 4.5% !important;
+  }
+  
+  .btn11 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .logo {
+    width: 90px !important;
+  }
+  .logo1 {
+    font-size: 45px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  .allright {
+    font-size: 12px !important ;
+  }
+  .lastdiv {
+    margin-top: 20px !important;
+  }
+  .inpdiv {
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .para1 {
+    font-size: 39px !important;
+  }
+  .img1 {
+    height: 50vh !important;
+    margin-top: 10px !important;
+  }
+  .head2 {
+    font-size: 35px !important;
+  }
+  .he {
+    font-size: 37px !important;
+  }
+  .flex1 {
+    text-align: center !important;
+  }
+  .h {
+    font-size: 19px !important;
+  }
+  .p1 {
+    font-size: 17px !important;
+  }
+  .h3h {
+    font-size: 36px !important;
+  }
+  .p11 {
+    font-size: 12px !important;
+  }
+  
+  .shape {
+    font-size: 21px !important;
+  }
+  .ulbtn{
+    margin-left: 5%!important;
+  }
+  
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .para1 {
+    font-size: 39px !important;
+    margin-left: 10px !important;
+  }
+
+  .head2 {
+    font-size: 33px !important;
+  }
+  .he {
+    font-size: 36px !important;
+  }
+  .h {
+    font-size: 30px !important;
+  }
+  .p1 {
+    font-size: 16px !important;
+  }
+  .h3h {
+    font-size: 35px !important;
+  }
+  .p11 {
+    font-size: 12px !important;
+  }
+  
+ 
+ 
+}
