@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* media --------------------- */
+@media (max-width: 576px) {
+  .logo1 {
+    font-size: 45px !important;
+  }
+  .logo {
+    width: 90px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  .allright {
+    font-size: 12px !important ;
+  }
+  .lastdiv {
+    margin-top: 20px !important;
+  }
+  .img1 {
+    width: 92.5vw !important;
+    height: 35vh !important;
+  }
+  .head5 {
+    text-align: center !important;
+    font-size: 18px !important;
+  }
+  .first {
+    text-align: end !important;
+    margin-right: 10px !important;
+  }
+  .second {
+    text-align: start !important;
+  }
+  .similar {
+    font-size: 20px !important;
+  }
+  .product {
+    font-size: 18px !important;
+  }
+  .view {
+    font-size: 12px !important;
+    margin-left: -200% !important;
+    height: 0!important;
+    line-height: 0!important;
+  }
+  .cconf{
+    margin-top: 5%!important;
+  }
+
+  .havep {
+    line-height: 38px !important;
+  }
+  .largebtn {
+    width: 100% !important;
+    margin-left: 2px !important;
+  }
+  .buttonrow{
+    margin-top: 10px!important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .shape {
+    font-size: 21px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+}
