@@ -85,9 +85,13 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 767px) {
   .para1 {
     font-size: 39px !important;
+  }
+  .explorebtn{
+    min-width:239px!important;
+    
   }
   .img1 {
     height: 50vh !important;

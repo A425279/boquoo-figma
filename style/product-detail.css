@@ -21,10 +21,13 @@
   .lastdiv {
     margin-top: 20px !important;
   }
+
   .img1 {
-    width: 92.5vw !important;
-    height: 35vh !important;
+    width: 89vw !important;
+    height: 58vh !important;
+    padding: 10px;
   }
+
   .head5 {
     text-align: center !important;
     font-size: 18px !important;
@@ -45,30 +48,82 @@
   .view {
     font-size: 12px !important;
     margin-left: -200% !important;
-    height: 0!important;
-    line-height: 0!important;
+    height: 0 !important;
+    line-height: 0 !important;
   }
-  .cconf{
-    margin-top: 5%!important;
+  .cconf {
+    margin-top: 5% !important;
   }
 
   .havep {
     line-height: 38px !important;
   }
   .largebtn {
-    width: 100% !important;
-    margin-left: 2px !important;
+    width: 105% !important;
   }
-  .buttonrow{
-    margin-top: 10px!important;
+  .buttondiv {
+    width: 32% !important;
   }
-}
-
-@media (min-width: 577px) and (max-width: 768px) {
-  .shape {
-    font-size: 21px !important;
+  .buttonrow {
+    margin-top: 10px !important;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 577px) and (max-width: 767px) {
+  .img1 {
+    width: 512.31px !important;
+    height: 59.5vh !important;
+    padding: 13px !important;
+  }
+  .view {
+    visibility: hidden !important;
+  }
+  .te {
+    padding-top: 100px !important;
+  }
+  .head5 {
+    text-align: center !important;
+  }
+  .first {
+    text-align: end !important;
+    padding-right: 5px !important;
+  }
+
+  .second {
+    text-align: start !important;
+  }
+  .largebtn {
+    width: 118% !important;
+  }
+  .havep {
+    line-height: 78px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .img1 {
+    width: 290.95px !important;
+  }
+  .view {
+    visibility: hidden !important;
+  }
+  .first {
+    font-size: 15px !important;
+    margin-right: 10px !important;
+  }
+
+  .second {
+    text-align: start !important;
+    font-size: 15px !important;
+  }
+  .head5 {
+    font-size: 17px !important;
+  }
+  .largebtn {
+    width: 93% !important;
+    margin-left: 31px !important;
+  }
+  .havep {
+    line-height: 78px !important;
+  }
 }
