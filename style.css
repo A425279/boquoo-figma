@@ -3,14 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+.custom-border {
+  border: none;
+}
 
 /* media --------------------- */
 @media (max-width: 576px) {
+  .wepara {
+    display: none !important;
+  }
   .heading {
     font-size: 24px !important;
   }
-  .lastpara{
-    font-size: 13px!important;
+  .subscribe {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    min-width: 87% !important;
+    margin-bottom: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .lastpara {
+    font-size: 13px !important;
   }
   .para1 {
     font-size: 18px !important;
@@ -41,7 +59,7 @@
     text-align: center !important;
   }
   .p1 {
-    font-size: 10px !important;
+    font-size: 12px !important;
     text-align: center !important;
   }
   .butt1 {
@@ -55,12 +73,25 @@
   .p11 {
     font-size: 13px !important;
     text-align: center !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .inp {
     width: 91% !important;
     margin-left: 4.5% !important;
   }
-  
+  .head2 {
+    border-bottom: 1px solid black !important;
+  }
+  .borderleft {
+    border-left: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    border-right: 0 !important;
+  }
+  .borderright {
+    border-right: 1px solid black !important;
+  }
+
   .btn11 {
     display: flex !important;
     justify-content: center !important;
@@ -85,14 +116,57 @@
   }
 }
 
+/* -------------------------------------- */
+@media (max-width: 768px) {
+  
+  ul li {
+    font-size: 13px !important;
+  }
+  .logo1 {
+    font-size: 40px !important;
+  }
+  .list-unstyled {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+
+  .gap-md-3 {
+    gap: 1rem !important;
+  }
+}
+
+/* -------------------------------- */
+
 @media (min-width: 577px) and (max-width: 767px) {
+  .ulparent {
+    justify-content: center !important;
+  }
+  .subscribe {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    width: 65vw !important;
+    margin-bottom: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  .spantag {
+    font-size: 43px !important;
+  }
+
+  .inp {
+    width: 65vw !important;
+  }
   .para1 {
-    font-size: 39px !important;
+    font-size: 30px !important;
   }
-  .explorebtn{
-    min-width:239px!important;
-    
+
+  .wepara {
+    display: none !important;
   }
+
   .img1 {
     height: 50vh !important;
     margin-top: 10px !important;
@@ -101,7 +175,7 @@
     font-size: 35px !important;
   }
   .he {
-    font-size: 37px !important;
+    font-size: 31px !important;
   }
   .flex1 {
     text-align: center !important;
@@ -116,27 +190,41 @@
     font-size: 36px !important;
   }
   .p11 {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
-  
-  .shape {
-    font-size: 21px !important;
+
+  .btn11 {
+    display: flex !important;
+    justify-content: center !important;
   }
-  .ulbtn{
-    margin-left: 5%!important;
+  .inpp {
+    display: flex !important;
+    justify-content: center !important;
   }
-  
+}
+
+@media (min-width: 992px) and (max-width:1400px) {
+  .custom-border {
+    border: 1px solid #000000;
+  }
+  .ulparent {
+    width: 55vw !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-border {
+    border: 1px solid #000000;
+  }
+  .ulparent {
+    width: 78vw !important;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-  .para1 {
-    font-size: 39px !important;
-    margin-left: 10px !important;
-  }
-
   .head2 {
     font-size: 33px !important;
   }
+
   .he {
     font-size: 36px !important;
   }
@@ -147,12 +235,13 @@
     font-size: 16px !important;
   }
   .h3h {
-    font-size: 35px !important;
+    font-size: 28px !important;
   }
   .p11 {
     font-size: 12px !important;
   }
-  
- 
- 
+  .inp {
+    display: flex !important;
+    justify-content: center !important;
+  }
 }

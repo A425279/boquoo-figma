@@ -9,6 +9,9 @@
   .logo1 {
     font-size: 45px !important;
   }
+  ul li{
+    font-size: 15px!important;
+  }
   .logo {
     width: 90px !important;
   }
@@ -24,7 +27,7 @@
 
   .img1 {
     width: 89vw !important;
-    height: 58vh !important;
+    height: 89vw !important;
     padding: 10px;
   }
 
@@ -69,6 +72,21 @@
   }
 }
 
+@media (max-width:576px){
+  ul li{
+    font-size: 13px!important;
+  }
+  .logo1{
+    font-size: 40px!important;
+  }.list-unstyled {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+
+  .gap-md-3 {
+    gap: 1rem !important;
+  }
+}
 @media (min-width: 577px) and (max-width: 767px) {
   .img1 {
     width: 512.31px !important;
@@ -127,3 +145,4 @@
     line-height: 78px !important;
   }
 }
+  
