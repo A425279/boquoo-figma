@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/style/company-details.css">
+    <link rel="stylesheet" href="/style/registration-page.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -102,6 +102,7 @@
             
             <!-- Column 1 -->
             <div class="col-md-4 p-0 ">
+             <a style="text-decoration: none;" href="/pages/company-information.html">
               <li class="nav-item d-flex justify-content-center" role="presentation">
                 <button  style="width: 100%;height: 100% ; margin: 0;" class="nav-link active py-4 button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
                   <div class="mx-auto mt-3" style="width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid black; background-color: #FFFFFF; position: relative;">
@@ -111,10 +112,12 @@
                   <p style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 14px;color: #FFFFFF; margin-top: -15px;">A few details about your company</p>
                 </button>
               </li>
+             </a>
             </div>
             
             <!-- Column 2 -->
-            <div class="col-md-4 p-0 border">
+            <div class="col-md-4 p-0">
+             <a style="text-decoration: none;" href="/pages/contact-information.html">
               <li class="nav-item d-flex justify-content-center" role="presentation">
                 <button style="width: 100%;;height: 100%; margin: 0;" class="nav-link py-4 button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
                   <div class="mx-auto border mt-3" style="width: 24px; height: 24px; border-radius: 50%; background-color: #FFFFFF; position: relative;">
@@ -124,10 +127,13 @@
                   <p style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 14px;color: rgba(17, 29, 47, 1); margin-top: -15px;">Provide company contact information</p>
                 </button>
               </li>
+             </a>
             </div>
       
             <!-- Column 3 -->
-            <div class="col-md-4 p-0 border ">
+            <div class="col-md-4 p-0  ">
+             
+             <a style="text-decoration: none;" href="/pages/registration-page.html">
               <li class="nav-item d-flex justify-content-center " role="presentation">
                 <button style="width: 100%;;height: 100%; margin: 0;" class="nav-link py-4 button" id="pills-submit-tab" data-bs-toggle="pill" data-bs-target="#pills-submit" role="tab" aria-controls="pills-submit" aria-selected="false">
                   <div class="mx-auto border mt-3" style="width: 24px; height: 24px; border-radius: 50%; background-color: #FFFFFF; position: relative;">
@@ -137,6 +143,7 @@
                   <p style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 14px;color:rgba(17, 29, 47, 1); margin-top: -15px;">Submit details for account approval</p>
                 </button>
               </li>
+             </a>
             </div>
             
 
@@ -150,61 +157,40 @@
         </div>
       </div>
       
-    <!-- company information ----------->
-     <div class="container-fluid mt-4 ">
-        <div class="row">
-            <div class="col-md-5 ">
-               <p class="paragraph2" style="font-family: 'Circular Std',sans-serif;font-weight: 600;font-size: 31px;line-height: 32px;margin-top: 35px;margin-left: 95px;"> Company <br> <span class="spantag" style="font-family: 'Playfair Display',serif;font-weight: 700;font-style: italic;font-size: 35px;line-height: 40px;color:#1CA08B;">Information</span></p>
-            </div>
-            <div class="col-md-7">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3 p-3 p-md-0 inpparent">
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1)" for="exampleFormControlInput1" class="form-label">Company Name</label>
-                        <input style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 16px;line-height: 24px;color:#667085" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nike">
+    <!-- submitt details ----------->
+     <div>
+        <h3 class="readydetail" style="font-family: 'Playfair Display',serif;font-weight: 700;font-size: 25px;line-height: 80px;letter-spacing: -1px; text-align: center;color: rgba(18, 29, 47, 1);">Ready To Submit Details?</h3>
 
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Company Type</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. Manufacturer">
-
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);" for="exampleFormControlInput1" class="form-label">Industry</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. Clothes Producer">
-
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Company Location</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1901 Thornridge Cir. Shiloh, Hawaii 81063">
-                        </div>
-                      </div>
-                      <div class="col-md-6 ">
-                        <div class="mb-3 p-3 p-md-0 inpparent">
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1)" for="exampleFormControlInput1" class="form-label">Company Size</label>
-                        <input style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 16px;line-height: 24px;color:#667085;" type="email" class="form-control" id="exampleFormControlInput1" placeholder="100-200">
-
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Annual Revenue</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="$10 m">
-
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);" for="exampleFormControlInput1" class="form-label">Products Type</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. Clothes Producer">
-
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Established Year</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. 2001">
-                        </div>
-                      </div>
-                </div>
-
-
-            </div>
+        <div class="mx-auto px-4 px-md-0" style="width: 330px; height: 60px; margin-top: -20px;">
+            <p class="p-2 p-md-0 review" style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 11.6px;line-height: 20px;text-align:center;color: rgba(17, 29, 47, 1);">Please review all the information  provided. Once you submit, your  company profile will be checked by our in 2-3 working day  Thank you for your patience!</p>
         </div>
-
-        <!-- buttons---------- -->
-          <div>
-            <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-end gap-2 mt-3">
-              <button class=" btn1" style="min-width: 150px;height: 55px; border: none;color: rgba(194, 198, 206, 1);font-family: 'Circular Std',sans-serif;font-weight:500;">Back</button>
-  
-              <button class="btn1 " style="min-width: 150px;height: 55px ;border: none;background-color:rgba(18, 29, 47, 1);color:rgba(243, 228, 231, 1);font-family: 'Circular Std',sans-serif;font-weight: 500;align-items: center;line-height: 24px;font-size: 18px;">Next</button>
-            </div>
-          </div>
-
-         
      </div>
+
+     
+     <div class="mx-auto main-container" style="width:40vw;border-top: 1px solid black; margin-top: 5%;">
+        <div style="width: 35vw;" class="form-check mt-3 mx-auto inplabel-container">
+            <input class="form-check-input inptag" type="checkbox" value="" id="flexCheckDefault">
+            
+            <p class="pt-1 review" style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 11.6px;line-height: 20px;text-align:center;color: rgba(17, 29, 47, 1);">Please review all the information  provided. Once you submit, your  company profile will be checked by our in 2-3 working day  Thank you for your patience!</p>
+          </div>
+     </div>
+     <div>
+       
+
+        
+     </div>
+    
+    
+
+
+     <!-- buttons code------ -->
+     <div>
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-2 mt-4">
+          <button class=" btn1" style="min-width: 10vw;height: 55px; border: none;color:rgba(17, 29, 47, 1);font-family: 'Circular Std',sans-serif;font-weight:500;font-size: 18px;">Back</button>
+
+          <button class="btn1 " style="min-width: 10vw;height: 55px ;border: none;background-color:rgba(18, 29, 47, 1);color:rgba(243, 228, 231, 1);font-family: 'Circular Std',sans-serif;font-weight: 500;align-items: center;line-height: 24px;font-size: 18px;">Next</button>
+        </div>
+      </div> 
 
 
       <!-- footer------------------ -->

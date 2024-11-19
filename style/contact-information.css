@@ -3,7 +3,8 @@
   background-color: #121d2f !important;
   color: #ffffff !important;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #ffffff !important;
 }
 
@@ -22,6 +23,9 @@
 #exampleFormControlInput1::placeholder {
   color: rgba(102, 112, 133, 0.4) !important;
 }
+#exampleFormControlInput1 {
+  color: #000000 !important;
+}
 .form-control {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
@@ -33,8 +37,8 @@
 
 @media (max-width: 576px) {
   .btn1 {
-    width: 269px !important;
-    height: 55px !important;
+    min-width: 82vw !important;
+    height: 47px !important;
   }
   .logo {
     width: 90px !important;
@@ -73,9 +77,16 @@
 
 @media (min-width: 577px) and (max-width: 767px) {
   .btn1 {
-    width: 400px !important;
-    height: 55px !important;
+    min-width: 55vw !important;
+    height: 47px !important;
   }
+  .btn1parent {
+    margin-top: 80px !important;
+  }
+  .flexcontainer {
+    gap: 220px !important;
+  }
+
   .button {
     width: 526px !important;
     height: 158px !important;

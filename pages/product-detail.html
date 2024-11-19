@@ -168,9 +168,11 @@
     
               <!-- Add to Cart Button -->
               <div class="col-8 col-md-10 ps-4">
-                <button class="largebtn" style="width: 103%; background: #121D2F; color: #F3E4E7; line-height: 28.9px; font-weight: 500;font-family: 'Circular Std', sans-serif;">
-                  Add To Cart
-                </button>
+                <button type="button" class="largebtn" 
+        style="width: 103%; background: #121D2F; color: #F3E4E7; line-height: 28.9px; font-weight: 500; font-family: 'Circular Std', sans-serif;" 
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Add To Cart
+</button>
               </div>
             </div>
           </div>
@@ -178,6 +180,29 @@
         </div>
       </div>
     </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 style="font-family: 'Circular Std',sans-serif;font-weight: 600;line-height: 24px ;" class="modal-title fs-3" id="exampleModalLabel">Have A Special Inquiry?</h1>
+            <button style="color: rgba(0, 0, 0, 1)!important;margin-top: 5px;margin-right: 5px;" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-size: 16px;font-weight: 300;letter-spacing: -2%;line-height: 23.04px;color: rgba(18, 29, 47, 1)!important;font-family: 'Circular Std',sans-serif;">
+              If you need assistance, you can either submit a support ticket, and we’ll respond as soon as possible.
+            </p>
+          </div>
+          <div class="modal-footer d-flex justify-content-start">
+            <button style="background-color: rgba(18, 29, 47, 1);color: rgba(243, 228, 231, 1);font-family: 'Circular Std',sans-serif;font-weight: 500;font-size: 16px;line-height: 24px;text-align: center;padding-top: 14px;padding-right: 24px;padding-bottom: 14px;padding-left: 24px; gap: 10px;" type="button" class="" data-bs-dismiss="modal">Create Ticket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
 
 <!-- imges section------- -->
