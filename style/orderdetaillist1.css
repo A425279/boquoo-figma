@@ -1,0 +1,112 @@
+
+
+
+.myorder{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(17, 24, 39, 1);
+}
+.form-control{
+    width: 300px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+th{
+    font-family: 'Playfair',serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(107, 114, 128, 1);
+}
+.images{
+    width: 56px;
+    height: 56.02px;
+}
+.bouqotext{
+    font-family: 'Playfair',serif;
+    font-weight: 550;
+    font-size: 17px;
+    color: rgba(17, 24, 39, 0.726);
+}
+
+p{
+    font-family: 'Circular Std',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(107, 114, 128, 1);
+}
+i{
+    color: rgba(107, 114, 128, 0.819);
+   
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* media --------------------- */
+@media (max-width: 576px) {
+    
+   
+    .logo {
+        width: 90px !important;
+      }
+      .logo1 {
+        font-size: 45px !important;
+      }
+      .shape {
+        font-size: 11px !important;
+      }
+      .allright {
+        font-size: 12px !important ;
+      }
+    
+    
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .logo {
+      width: 90px !important;
+    }
+    .shape {
+      font-size: 11px !important;
+    }
+    
+  }
+ 
+  
+  @media (max-width: 768px) {
+    ul li {
+      font-size: 13px !important;
+    }
+    .logo1 {
+      font-size: 40px !important;
+    }
+    .list-unstyled {
+      flex-direction: row !important;
+      justify-content: flex-start;
+    }
+  }
+  
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+  }
+  
+  .row {
+    --bs-gutter-x: 0 !important;
+  }
+  
+  .input-group-text {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  
+  .input-group-prepend {
+    margin-right: 5px !important;
+  }
+  

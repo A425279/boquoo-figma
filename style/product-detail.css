@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.modal-header, .modal-body,.modal-footer {
+  border: none!important; /* Border ko remove karne ke liye */
+  outline: none!important; /* Outline ko remove karne ke liye */
+}
+
 /* media --------------------- */
 @media (max-width: 576px) {
   .logo1 {

@@ -1,0 +1,118 @@
+/* media --------------------- */
+@media (max-width: 576px) {
+  .apple1 {
+    width: 220px !important;
+  }
+  .heypara {
+    width: 69% !important;
+    margin-left: 3rem !important;
+  }
+
+  .minago {
+    margin-left: 12px !important;
+  }
+
+  .heading {
+    font-size: 15px !important;
+  }
+  .allfilter {
+    justify-content: space-between !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .productname {
+    font-size: 15px !important;
+    width: 86.7vw !important;
+  }
+  .stylepara {
+    font-size: 13px !important;
+  }
+  .sar {
+    font-size: 13px !important;
+  }
+  .requestdetail {
+    font-size: 15px !important;
+  }
+  .proname {
+    font-size: 13px !important;
+    margin-left: 7px !important;
+  }
+  .youpara {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+  }
+  .diane {
+    margin-left: 10px !important;
+    font-size: 14px !important;
+  }
+  .around {
+    justify-content: space-around !important;
+  }
+  .you1 {
+    margin-left: 101px !important;
+  }
+  .blankimg {
+    width: 83vw !important;
+  }
+}
+
+.logo {
+  width: 90px !important;
+}
+.logo1 {
+  font-size: 45px !important;
+}
+.shape {
+  font-size: 11px !important;
+}
+.allright {
+  font-size: 12px !important ;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    font-size: 13px !important;
+  }
+  .logo1 {
+    font-size: 40px !important;
+  }
+  .list-unstyled {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo {
+    width: 90px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  .allfilter {
+    justify-content: space-between !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .productname {
+    width: 64.5vw !important;
+  }
+  .blankimg {
+    width: 478.08px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.input-group-text {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.input-group-prepend {
+  margin-right: 5px !important;
+}

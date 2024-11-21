@@ -47,15 +47,15 @@
     font-size: 17px !important;
   }
   .paragraph2 {
-    font-size: 25px !important;
+    font-size: 20px !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
     text-align: center !important;
   }
   .spantag {
-    font-size: 27px !important;
+    font-size: 20px !important;
     margin-left: 0 !important;
-    margin-top: 0 !important;
+    margin-top: 0 !important;line-height: 0!important;
     text-align: center !important;
   }
   .logo1 {
@@ -76,6 +76,12 @@
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
+  .smrow{
+    width: 100%!important;
+  }
+  .col1{
+    max-width: 33.31%!important;
+  }
   .btn1 {
     min-width: 55vw !important;
     height: 47px !important;
@@ -96,15 +102,16 @@
     margin: auto !important;
   }
   .paragraph2 {
-    font-size: 25px !important;
+    font-size: 30px !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
     text-align: center !important;
   }
   .spantag {
-    font-size: 27px !important;
+    font-size: 30px !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
+    line-height: 20px!important ;
     text-align: center !important;
   }
   .inpparent {
@@ -124,15 +131,14 @@
     height: 100% !important;
   }
   .paragraph2 {
-    font-size: 25px !important;
-    margin-left: 0 !important;
-    margin-top: 35px !important;
-    text-align: center !important;
+    font-size: 40px !important;
+    margin-left: 20% !important;
+    margin-top: 40% !important;
   }
   .spantag {
-    font-size: 27px !important;
+    font-size: 40px !important;
     margin-left: 0 !important;
-    margin-top: 35px !important;
-    text-align: center !important;
+    margin-top: 0 !important;
+    line-height: 50px!important ;
   }
 }

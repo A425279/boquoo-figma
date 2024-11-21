@@ -1,0 +1,167 @@
+#exampleFormControlInput1::placeholder {
+  color: rgba(102, 112, 133, 0.4) !important;
+}
+#exampleFormControlInput1 {
+  color: #000000 !important;
+}
+.form-control {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  border: 1px solid #000 !important;
+}
+
+@media (max-width: 576px)
+ {
+  .product {
+    margin-left: 4% !important;
+    margin-top: 2% !important;
+  }
+  .imgdiv {
+    width: 93vw !important;
+    height: 261px !important;
+  }
+  .btn1 {
+    min-width: 82vw !important;
+    height: 47px !important;
+  }
+  .logo {
+    width: 90px !important;
+  }
+  .paragraph {
+    font-size: 17px !important;
+  }
+  .paragraph2 {
+    font-size: 20px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    text-align: center !important;
+    line-height: 37px !important;
+  }
+  .spantag {
+    font-size: 20px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    line-height: 0 !important;
+    text-align: center !important;
+  }
+  .logo1 {
+    font-size: 45px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  #exampleFormControlInput1::placeholder {
+    font-size: 13px !important;
+  }
+  .btn1parent {
+    margin-top: 5% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) 
+
+{
+    .title{
+        padding-left: 50px!important;
+        padding-right: 50px!important;
+    }
+  .paragraph2 {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    text-align: center !important;
+    font-size: 30px!important;
+  }
+  .spantag{
+    font-size: 33px!important;
+  }
+  .product {
+    margin-left: 8%!important;
+   
+  }
+  .imgcontainer {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .imgdiv {
+    width: 536.61px !important;
+    height: 261px !important;
+  }
+
+    .smrow {
+      width: 100% !important;
+    }
+    .col1 {
+      max-width: 33.31% !important;
+    }
+    .btn1 {
+      width: 64vw !important;
+      height: 47px !important;
+    }
+    .btn1parent{
+        margin-top: 2%!important;
+    }
+
+    .button {
+      width: 526px !important;
+      height: 158px !important;
+    }
+    ul {
+      width: 526px !important;
+      margin: auto !important;
+    }
+   
+
+ 
+}
+
+
+  @media (min-width: 992px) {
+    li {
+      height: 100% !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1300px) {
+    li {
+      height: 100% !important;
+    }
+    .paragraph2 {
+      font-size: 40px !important;
+      margin-left: 20% !important;
+      margin-top: 40% !important;
+    }
+    .spantag {
+      font-size: 40px !important;
+      margin-left: 0 !important;
+      margin-top: 0 !important;
+      line-height: 50px !important ;
+    }
+    .imgdiv{
+        width: 105px!important;
+    }
+    .danger{
+        margin-left: 10px!important;
+    }
+    .productname{
+        font-size: 13px!important;
+    }
+    .sar{
+        font-size: 15px!important;
+        overflow-x: hidden!important;
+    }
+  }
+  @media (min-width:1253px){
+
+
+  }
+

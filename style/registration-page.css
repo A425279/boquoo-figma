@@ -33,21 +33,18 @@
 }
 
 @media (max-width: 576px) {
-   .main-container{
-    width: 80vw!important;
-   }
-  
-   .review{
-    font-size: 11px!important;
-   }
-   .inplabel-container{
-    width: 100%!important;
-   }
+  .main-container {
+    width: 80vw !important;
+  }
 
+  .review {
+    font-size: 11px !important;
+  }
+  .inplabel-container {
+    width: 100% !important;
+  }
 
-
-
-    .readydetail {
+  .readydetail {
     font-size: 19px !important;
   }
   .btn1 {
@@ -60,18 +57,7 @@
   .paragraph {
     font-size: 17px !important;
   }
-  .paragraph2 {
-    font-size: 25px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    text-align: center !important;
-  }
-  .spantag {
-    font-size: 27px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    text-align: center !important;
-  }
+ 
   .logo1 {
     font-size: 45px !important;
   }
@@ -90,20 +76,22 @@
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
+  .smrow {
+    width: 100% !important;
+  }
+  .col1 {
+    max-width: 33.31% !important;
+  }
+  .main-container {
+    width: 55vw !important;
+  }
 
-    .main-container{
-        width: 55vw!important;
-       }
-      
-       .review{
-        font-size: 11px!important;
-       }
-       .inplabel-container{
-        width: 100%!important;
-       }
-    
-
-
+  .review {
+    font-size: 11px !important;
+  }
+  .inplabel-container {
+    width: 100% !important;
+  }
 
   .btn1 {
     min-width: 55vw !important;
@@ -118,18 +106,7 @@
     width: 526px !important;
     margin: auto !important;
   }
-  .paragraph2 {
-    font-size: 25px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    text-align: center !important;
-  }
-  .spantag {
-    font-size: 27px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    text-align: center !important;
-  }
+  
   .inpparent {
     width: 553px !important;
     height: 312px !important;
@@ -146,16 +123,5 @@
   li {
     height: 100% !important;
   }
-  .paragraph2 {
-    font-size: 25px !important;
-    margin-left: 0 !important;
-    margin-top: 35px !important;
-    text-align: center !important;
-  }
-  .spantag {
-    font-size: 27px !important;
-    margin-left: 0 !important;
-    margin-top: 35px !important;
-    text-align: center !important;
-  }
+ 
 }
