@@ -1,112 +1,140 @@
-
-
-
-.myorder{
-    font-family: 'Playfair Display',sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: rgba(17, 24, 39, 1);
+.myorder {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(17, 24, 39, 1);
 }
-.form-control{
-    width: 300px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+.form-control {
+  width: 300px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
-th{
-    font-family: 'Playfair',serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: rgba(107, 114, 128, 1);
+th {
+  font-family: "Playfair", serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(107, 114, 128, 1);
 }
-.images{
-    width: 56px;
-    height: 56.02px;
+.images {
+  width: 56px;
+  height: 56.02px;
 }
-.bouqotext{
-    font-family: 'Playfair',serif;
-    font-weight: 550;
-    font-size: 17px;
-    color: rgba(17, 24, 39, 0.726);
+.bouqotext {
+  font-family: "Playfair", serif;
+  font-weight: 550;
+  font-size: 17px;
+  color: rgba(17, 24, 39, 0.726);
 }
 
-p{
-    font-family: 'Circular Std',sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: rgba(107, 114, 128, 1);
+p {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgba(107, 114, 128, 1);
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
 }
-i{
-    color: rgba(107, 114, 128, 0.819);
-   
-    font-size: 20px;
+.fa-eye {
+  color: rgba(107, 114, 128, 0.819);
+
+  font-size: 20px;
+  padding-top: 27px !important;
 }
 
+.table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 0px !important;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
 
-
-
-
-
-
-
+@media (max-width: 576px) {
+  .main-container {
+    padding: 1.5rem !important;
+  }
+}
 
 /* media --------------------- */
-@media (max-width: 576px) {
-    
-   
-    .logo {
-        width: 90px !important;
-      }
-      .logo1 {
-        font-size: 45px !important;
-      }
-      .shape {
-        font-size: 11px !important;
-      }
-      .allright {
-        font-size: 12px !important ;
-      }
-    
-    
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch !important;
   }
-  
-  @media (min-width: 577px) and (max-width: 768px) {
-    .logo {
-      width: 90px !important;
-    }
-    .shape {
-      font-size: 11px !important;
-    }
-    
+
+  .table {
+    min-width: 600px;
   }
- 
-  
-  @media (max-width: 768px) {
-    ul li {
-      font-size: 13px !important;
-    }
-    .logo1 {
-      font-size: 40px !important;
-    }
-    .list-unstyled {
-      flex-direction: row !important;
-      justify-content: flex-start;
-    }
+  p {
+    font-size: 12px !important;
   }
-  
-  
-  @media (min-width: 769px) and (max-width: 1200px) {
+  .img1 {
+    width: 51px !important;
+    height: 51px !important;
   }
-  
-  .row {
-    --bs-gutter-x: 0 !important;
+
+  .table th,
+  .table td {
+    padding: 8px 12px;
+    font-size: 12px;
   }
-  
-  .input-group-text {
-    background-color: transparent !important;
-    border: none !important;
+  .button1 {
+    margin-top: 28% !important;
   }
-  
-  .input-group-prepend {
-    margin-right: 5px !important;
+  .para {
+    margin-top: 17px !important;
   }
-  
+
+  .logo {
+    width: 90px !important;
+  }
+  .logo1 {
+    font-size: 45px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  .allright {
+    font-size: 12px !important ;
+  }
+  .myorder {
+    font-size: 17px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo {
+    width: 90px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    font-size: 13px !important;
+  }
+  .logo1 {
+    font-size: 40px !important;
+  }
+  .list-unstyled {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.input-group-text {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.input-group-prepend {
+  margin-right: 5px !important;
+}

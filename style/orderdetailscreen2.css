@@ -1,0 +1,81 @@
+.myorder {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(17, 24, 39, 1);
+}
+
+
+
+
+
+
+
+
+
+/* media --------------------- */
+@media (max-width: 576px) {
+  /* .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+.table {
+    min-width: 600px;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px 12px;
+    font-size: 12px;
+  } */
+  
+  .main-container {
+    padding: 1.5rem !important;
+  }
+  .logo {
+    width: 90px !important;
+  }
+  .logo1 {
+    font-size: 45px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+  .allright {
+    font-size: 12px !important ;
+  }
+  .myorder {
+    font-size: 17px !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo {
+    width: 90px !important;
+  }
+  .shape {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  ul li {
+    font-size: 13px !important;
+  }
+  .logo1 {
+    font-size: 40px !important;
+  }
+  .list-unstyled {
+    flex-direction: row !important;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+

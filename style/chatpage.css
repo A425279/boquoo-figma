@@ -1,3 +1,8 @@
+.blankimg {
+  max-width: 245px;
+  /* height: 231px; */
+}
+
 /* media --------------------- */
 @media (max-width: 576px) {
   .apple1 {
@@ -52,7 +57,7 @@
     margin-left: 101px !important;
   }
   .blankimg {
-    width: 83vw !important;
+   
   }
 }
 
@@ -93,12 +98,13 @@
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
-  .productname {
-    width: 64.5vw !important;
+  .fa-ellipsis-vertical{
+    margin-left: 1rem !important;
   }
-  .blankimg {
+ 
+  /* .blankimg {
     width: 478.08px !important;
-  }
+  } */
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
