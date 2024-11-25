@@ -31,7 +31,7 @@
     height: 261px !important;
   }
   .btn1 {
-    min-width: 82vw !important;
+    min-width: 68vw !important;
     height: 47px !important;
   }
   .logo {
@@ -97,7 +97,7 @@
     font-size: 33px !important;
   }
   .product {
-    margin-left: 8% !important;
+    margin-left: 10% !important;
   }
   .imgcontainer {
     display: flex !important;
@@ -105,7 +105,7 @@
   }
 
   .imgdiv {
-    width: 495.61px !important;
+    width: 479.61px !important;
     height: 261px !important;
   }
 

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/style/company-information.css">
+    <link rel="stylesheet" href="../style/company-information.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,238 +31,614 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Circular+Std:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap" rel="stylesheet">
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Circular+Std:wght@500&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="overflow-x: hidden">
+    <!-- navbar-------------- -->
+    <div class="container mt-2">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="../images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-</head>
-<body style="overflow-x: hidden;">
-     <!-- navbar-------------- -->
-     <div class="container mt-2">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid ">
-              <a class="navbar-brand " href="#"><img class="logo" src="../images/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex gap-4 ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-size: 15px;
+                    font-weight: 300;
+                    color: #121d2f;
+                  "
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex gap-4 ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a style="font-family:'Circular Std', sans-serif; font-size: 15px; font-weight:300; color: #121D2F;" class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                </li>
-                
-                  <li class="nav-item">
-                    <a style="font-family: 'Circular Std', sans-serif; font-size:15px;font-weight: 300!important; color:#121D2F;" class="nav-link active" aria-current="page" href="/pages/All-product.html">All Products</a>
+              <li class="nav-item">
+                <a
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-size: 15px;
+                    font-weight: 300 !important;
+                    color: #121d2f;
+                  "
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/pages/All-product.html"
+                  >All Products</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-size: 15px;
+                    font-weight: 300 !important;
+                    color: #121d2f;
+                  "
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  My Acoount
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a style="font-family: 'Circular Std', sans-serif; font-size:15px;font-weight: 300!important; color:#121D2F;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    My Acoount
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+                </ul>
+              </li>
 
-                  <li class="nav-item dropdown">
-                    <a style="font-family: 'Circular Std', sans-serif; font-size:15px;font-weight: 300!important; color:#121D2F;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    SAR
-                    </a>
-                    <ul class="dropdown-menu ">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+              <li class="nav-item dropdown">
+                <a
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-size: 15px;
+                    font-weight: 300 !important;
+                    color: #121d2f;
+                  "
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SAR
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
                   </li>
-                 </ul>
+                </ul>
+              </li>
+            </ul>
 
-                 <form class="d-flex gap-4">
-                    <span class="input-group-text border-0 bg-transparent fs-6 ms-4 mt-1"><i class="bi bi-search"></i></span>
-                    <span class="input-group-text border-0 bg-transparent fs-6 mt-1"><i class="bi bi-bell"></i></span>
-                    <span style="margin-top: 5%;;font-family: 'Circular Std', sans-serif; font-size:15px; font-weight: 300!important; color:#121D2F;">My Orders</span>
-                </form>
-                
-              </div>
-            </div>
-          </nav>
+            <form class="d-flex gap-4">
+              <span
+                class="input-group-text border-0 bg-transparent fs-6 ms-4 mt-1"
+                ><i class="bi bi-search"></i
+              ></span>
+              <span class="input-group-text border-0 bg-transparent fs-6 mt-1"
+                ><i class="bi bi-bell"></i
+              ></span>
+              <span
+                style="
+                  margin-top: 5%;
+                  font-family: 'Circular Std', sans-serif;
+                  font-size: 15px;
+                  font-weight: 300 !important;
+                  color: #121d2f;">
+                  
+                 <a style="text-decoration: none;color: black;" href=".././pages/orderdetaillist1.html">My Orders</a>
+                  
+                  </span>
+            </form>
+          </div>
+        </div>
+      </nav>
     </div>
 
     <!-- heading section--------- -->
-     <div class="container">
-        <h3  style="font-family: 'Circular Std',sans-serif; font-weight:600;font-size: 30px;line-height: 80px;letter-spacing: -1px;color: #121D2F;;" class="text-center paragraph">Register Your Company</h3>
-     </div>
-     
-     <!-- navtabs buttons section----------- -->
-   
-   <div class="container-fluid p-4 p-md-0 p-0">
-    <ul class=" smrow d-flex flex-sm-row flex-md-row  nav nav-pills mb-3 border border-dark" id="pills-tab" role="tablist">
-        <div class="row w-100 g-0"> 
-            
-            <!-- Column 1 -->
-            <div class=" col1 col-md-4 p-0" id="column1">
-                    <li class="nav-item d-flex justify-content-center" role="presentation">
-                        <button style="width: 100%;height: 100% ; margin: 0;" class="nav-link active py-4 button" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
-                            <div class="mx-auto mt-3" style="width: 24px; height: 24px; border-radius: 50%; border: 1.5px solid black; background-color: #FFFFFF; position: relative;">
-                                <img src="/images/Dot.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                            </div>
-                            <h6 style="font-family: 'Playfair Display',serif;font-weight: 800;font-size: 14px;line-height: 40px;color: #FFFFFF; text-align: center;">Company details</h6>
-                            <p style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 14px;color: #FFFFFF; margin-top: -15px;">A few details about your company</p>
-                        </button>
-                    </li>
+    <div class="container">
+      <h3
+        style="
+          font-family: 'Circular Std', sans-serif;
+          font-weight: 600;
+          font-size: 30px;
+          line-height: 80px;
+          letter-spacing: -1px;
+          color: #121d2f;
+        "
+        class="text-center paragraph"
+      >
+        Register Your Company
+      </h3>
+    </div>
+
+    <!-- navtabs buttons section----------- -->
+
+
+    <div class="container-fluid p-4 p-md-0 p-0">
+      <ul class="smrow nav nav-pills mb-3 border border-dark" id="pills-tab" role="tablist">
+        <li class="nav-item col-12 col-sm-4 col-md-4 col-lg-4" role="presentation">
+          <button 
+            class="nav-link active py-4"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            <div class="mx-auto mt-3">
+              <img src="/images/Dot.png" alt="" />
             </div>
-            
-            <!-- Column 2 -->
-            <div class="col1 col-md-4 p-0" id="column2">
-                    <li class="nav-item d-flex justify-content-center" role="presentation">
-                        <button style="width: 100%; height: 100%; margin: 0;" class="nav-link py-4 button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
-                            <div class="mx-auto border mt-3" style="width: 24px; height: 24px; border-radius: 50%; background-color: #FFFFFF; position: relative;">
-                                <img src="/images/Dot.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                            </div>
-                            <h6 style="font-family: 'Playfair Display',serif; font-weight: 800; font-size: 14px; line-height: 40px; color: #344054; text-align: center;">Contact Information</h6>
-                            <p style="font-family: 'Circular Std',sans-serif; font-weight: 450; font-size: 14px; color: rgba(17, 29, 47, 1); margin-top: -15px;">Provide company contact information</p>
-                        </button>
-                    </li>
-            </div>
-            
-            <!-- Column 3 -->
-            <div class="col1 col-md-4 p-0" id="column3">
-                    <li class="nav-item d-flex justify-content-center" role="presentation">
-                        <button style="width: 100%;height: 100%; margin: 0;" class="nav-link py-4 button" id="pills-submit-tab" data-bs-toggle="pill" data-bs-target="#pills-submit" role="tab" aria-controls="pills-submit" aria-selected="false">
-                            <div class="mx-auto border mt-3" style="width: 24px; height: 24px; border-radius: 50%; background-color: #FFFFFF; position: relative;">
-                                <img src="/images/Dot.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                            </div>
-                            <h6 style="font-family: 'Playfair Display',serif;font-weight: 800;font-size: 14px;line-height: 40px;color: #344054; text-align: center;">Submit Details</h6>
-                            <p style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 14px;color:rgba(17, 29, 47, 1); margin-top: -15px;">Submit details for account approval</p>
-                        </button>
-                    </li>
-            </div>
-            
-        </div>
-    </ul>
+            <h6 class="text-dark">Company details</h6>
+            <p class="text-dark">A few details about your company</p>
+          </button>
+        </li>
     
-    <div class="tab-content" id="pills-tabContent">
+        <li class="nav-item col-12 col-sm-4 col-md-4 col-lg-4" role="presentation">
+          <button
+            class="nav-link py-4"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            <div class="mx-auto mt-3">
+              <img src="/images/Dot.png" alt="" />
+            </div>
+            <h6 class="text-dark">Contact Information</h6>
+            <p class="text-dark">Provide company contact information</p>
+          </button>
+        </li>
+    
+        <li class="nav-item col-12 col-sm-4 col-md-4 col-lg-4" role="presentation">
+          <button
+            class="nav-link py-4"
+            id="pills-submit-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-submit"
+            role="tab"
+            aria-controls="pills-submit"
+            aria-selected="false"
+          >
+            <div class="mx-auto mt-3">
+              <img src="/images/Dot.png" alt="" />
+            </div>
+            <h6 class="text-dark">Submit Details</h6>
+            <p class="text-dark">Submit details for account approval</p>
+          </button>
+        </li>
+      </ul>
+    
+      <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"></div>
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"></div>
         <div class="tab-pane fade" id="pills-submit" role="tabpanel" aria-labelledby="pills-submit-tab" tabindex="0"></div>
+      </div>
     </div>
-</div>
-
-      
+    
     <!-- company information ----------->
-     <div class="container-fluid mt-4 ">
-        <div class="row">
-            <div class="col-md-5 ">
-               <p class="paragraph2" style="font-family: 'Circular Std',sans-serif;font-weight: 600;font-size: 55px;line-height: 32px;margin-top: 35px;margin-left: 95px;"> Company <br> <span class="spantag" style="font-family: 'Playfair Display',serif;font-weight: 700;font-style: italic;font-size: 40px;line-height: 90px;color:#1CA08B;font-size: 60px;">Information</span></p>
-            </div>
-            <div class="col-md-7">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3 p-3 p-md-0 inpparent">
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1)" for="exampleFormControlInput1" class="form-label">Company Name</label>
-                        <input style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 16px;line-height: 24px;color:#667085" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nike">
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-md-5">
+          <p
+            class="paragraph2"
+            style="
+              font-family: 'Circular Std', sans-serif;
+              font-weight: 600;
+              font-size: 55px;
+              line-height: 32px;
+              margin-top: 35px;
+              margin-left: 95px;
+            "
+          >
+            Company <br />
+            <span
+              class="spantag"
+              style="
+                font-family: 'Playfair Display', serif;
+                font-weight: 700;
+                font-style: italic;
+                font-size: 40px;
+                line-height: 90px;
+                color: #1ca08b;
+                font-size: 60px;
+              "
+              >Information</span
+            >
+          </p>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-3 p-3 p-md-0 inpparent">
+                <label
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-weight: 550;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: rgb(52, 64, 84, 1);
+                  "
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                  >Company Name</label
+                >
+                <input
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-weight: 450;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #667085;
+                  "
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Nike"
+                />
 
-                      <div class="mt-3">
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Company Type</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. Manufacturer">
-                      </div>
-
-                        <div class="mt-3"><label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);" for="exampleFormControlInput1" class="form-label">Industry</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. Clothes Producer"></div>
-
-                       <div class="mt-3"> <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Company Location</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1901 Thornridge Cir. Shiloh, Hawaii 81063"></div>
-                        </div>
-                      </div>
-                      
-                      <div class="col-md-6 ">
-                        <div class="mb-3 p-3 p-md-0 inpparent">
-                        <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1)" for="exampleFormControlInput1" class="form-label">Company Size</label>
-                        <input style="font-family: 'Circular Std',sans-serif;font-weight: 450;font-size: 16px;line-height: 24px;color:#667085;" type="email" class="form-control" id="exampleFormControlInput1" placeholder="100-200">
-<div class="mt-3">
-  
-  <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Annual Revenue</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="$10 m">
-
-</div>
-                       <div class="mt-3"> <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);" for="exampleFormControlInput1" class="form-label">Products Type</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. Clothes Producer"></div>
-
-                      <div class="mt-3">  <label style="font-family: 'Circular Std',sans-serif;font-weight: 550;font-size: 13px;line-height: 20px;color:rgb(52, 64, 84,1);"  for="exampleFormControlInput1" class="form-label">Established Year</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="eg. 2001"></div>
-                        </div>
-                      </div>
+                <div class="mt-3">
+                  <label
+                    style="
+                      font-family: 'Circular Std', sans-serif;
+                      font-weight: 550;
+                      font-size: 13px;
+                      line-height: 20px;
+                      color: rgb(52, 64, 84, 1);
+                    "
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Company Type</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="eg. Manufacturer"
+                  />
                 </div>
 
+                <div class="mt-3">
+                  <label
+                    style="
+                      font-family: 'Circular Std', sans-serif;
+                      font-weight: 550;
+                      font-size: 13px;
+                      line-height: 20px;
+                      color: rgb(52, 64, 84, 1);
+                    "
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Industry</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="eg. Clothes Producer"
+                  />
+                </div>
 
+                <div class="mt-3">
+                  <label
+                    style="
+                      font-family: 'Circular Std', sans-serif;
+                      font-weight: 550;
+                      font-size: 13px;
+                      line-height: 20px;
+                      color: rgb(52, 64, 84, 1);
+                    "
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Company Location</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="1901 Thornridge Cir. Shiloh, Hawaii 81063"
+                  />
+                </div>
+              </div>
             </div>
-        </div>
 
-        <!-- buttons---------- -->
-        <div>
-          <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-end gap-2 mt-5">
-            <button class=" btn1" style="min-width: 10vw;height: 55px; border: none;color: rgba(194, 198, 206, 1);font-family: 'Circular Std',sans-serif;font-weight:500;">Back</button>
+            <div class="col-md-6">
+              <div class="mb-3 p-3 p-md-0 inpparent">
+                <label
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-weight: 550;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: rgb(52, 64, 84, 1);
+                  "
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                  >Company Size</label
+                >
+                <input
+                  style="
+                    font-family: 'Circular Std', sans-serif;
+                    font-weight: 450;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #667085;
+                  "
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="100-200"
+                />
+                <div class="mt-3">
+                  <label
+                    style="
+                      font-family: 'Circular Std', sans-serif;
+                      font-weight: 550;
+                      font-size: 13px;
+                      line-height: 20px;
+                      color: rgb(52, 64, 84, 1);
+                    "
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Annual Revenue</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="$10 m"
+                  />
+                </div>
+                <div class="mt-3">
+                  <label
+                    style="
+                      font-family: 'Circular Std', sans-serif;
+                      font-weight: 550;
+                      font-size: 13px;
+                      line-height: 20px;
+                      color: rgb(52, 64, 84, 1);
+                    "
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Products Type</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="eg. Clothes Producer"
+                  />
+                </div>
 
-           <a href="/pages/contact-information.html">
-            <button  class="btn1 " style="min-width: 10vw;height: 55px ;border: none;background-color:rgba(18, 29, 47, 1);color:rgba(243, 228, 231, 1);font-family: 'Circular Std',sans-serif;font-weight: 500;align-items: center;line-height: 24px;font-size: 18px;">Next</button>
-           </a>
+                <div class="mt-3">
+                  <label
+                    style="
+                      font-family: 'Circular Std', sans-serif;
+                      font-weight: 550;
+                      font-size: 13px;
+                      line-height: 20px;
+                      color: rgb(52, 64, 84, 1);
+                    "
+                    for="exampleFormControlInput1"
+                    class="form-label"
+                    >Established Year</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="eg. 2001"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-         
-     </div>
-
-
-      <!-- footer------------------ -->
-      <div class="mx-4 mx-md-0 border-2 text-light" style="background: #121D2F; padding-bottom: 4%;margin-top: 5%;">
-        <div class="row">
-          <!-- Left Column with Navigation Links -->
-          <div style="padding-top: 4.5%;" class=" order-1 order-md-0 col-12 col-md-4 d-flex justify-content-center justify-content-md-start align-items-start px-5">
-            <ul class="list-unstyled d-flex flex-md-column align-items-start justify-content-center gap-2 gap-md-3">
-              <li style="font-size: 16px;">Work</li>
-              <li style="font-size: 16px;">Services</li>
-              <li style="font-size: 16px;">Agency</li>
-              <li style="font-size: 16px;">Shop</li>
-              <li style="font-size: 16px;">Contact</li>
-            </ul>
-          </div>
-      
-          <!-- Center Column with Logo and Tagline -->
-          <div class=" col-12 col-md-4 d-flex flex-column align-items-center py-md-4">
-            <h1 class="logo1" style="font-size: 50px; padding-top:5%;">
-              <span style="text-decoration: underline; margin-top: 1px;">&</span>bouqu
-            </h1>
-            <p class="shape" style="font-size: 15px; color: #FFFFFF; text-decoration: underline !important; text-decoration-color: rgba(255, 255, 0, 0.671) !important; text-underline-offset: 10px !important; font-weight: bold;">
-              We <span style="font-style: italic; font-size: 15px; line-height: 24px;  font-family:'Circular Std', sans-serif; color: #1AA18C; letter-spacing: 2px;">Shape</span> Your Narrative.
-            </p>
-          </div>
-
-        
-     <div style="padding-top: 4.5%;" class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-start px-5 mx-2 mx-md-0">
-            <ul class="list-unstyled d-flex flex-md-column justify-content-center align-items-end gap-0 gap-md-3">
-              <li style="font-size: 16px; display: flex; align-items: center;">
-                LinkedIn <i class="fa-solid fa-location-arrow mx-2"></i>
-              </li>
-              <li style="font-size: 16px; display: flex; align-items: center;">
-                Instagram <i class="fa-solid fa-location-arrow mx-2"></i>
-              </li>
-              <li style="font-size: 16px; display: flex; align-items: center;">
-                Discord <i class="fa-solid fa-location-arrow mx-2"></i>
-              </li>
-            </ul>
-          </div>
-          
-       </div>
-      
-        <div style="padding-top: 4%;">
-          <p style="color: #FFFFFF; font-size: 12px;" class="text-center allright">2024. All rights & Lefts reserved.</p>
-          <hr class="mx-auto mt-2" style="width: 55vw; border: 1px solid white;">
         </div>
       </div>
-      
-</body>
 
+      <!-- buttons---------- -->
+
+      <div>
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-md-end gap-2 mt-5 me-1"
+        >
+          <button
+            class="btn1"
+            id="backBtn"
+            style="
+              min-width: 10vw;
+              height: 55px;
+              border: none;
+              color: rgba(194, 198, 206, 1);
+              font-family: 'Circular Std', sans-serif;
+              font-weight: 500;
+            "
+          >
+            Back
+          </button>
+          <button
+            id="nextBtn"
+            class="btn1"
+            style="
+              min-width: 10vw;
+              height: 55px;
+              border: none;
+              background-color: rgba(18, 29, 47, 1);
+              color: rgba(243, 228, 231, 1);
+              font-family: 'Circular Std', sans-serif;
+              font-weight: 500;
+              align-items: center;
+              line-height: 24px;
+              font-size: 18px;
+            "
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer------------------ -->
+    <div
+    class="mx-4 mx-md-0 border-2 text-light"
+    style="background: #121d2f; padding-bottom: 4%; margin-top: 5%"
+  >
+    <div class="row">
+      <!-- Left Column with Navigation Links -->
+      <div
+        style="padding-top: 4.5%"
+        class="order-1 order-md-0 col-12 col-md-4 d-flex justify-content-center justify-content-md-start align-items-start px-5"
+      >
+        <ul
+          class="list-unstyled d-flex flex-md-column align-items-start justify-content-center gap-2 gap-md-3"
+        >
+          <li style="font-size: 16px">Work</li>
+          <li style="font-size: 16px">Services</li>
+          <li style="font-size: 16px">Agency</li>
+          <li style="font-size: 16px">Shop</li>
+          <li style="font-size: 16px">Contact</li>
+        </ul>
+      </div>
+
+      <!-- Center Column with Logo and Tagline -->
+      <div
+        class="col-12 col-md-4 d-flex flex-column align-items-center py-md-4"
+      >
+        <h1 class="logo1" style="font-size: 50px; padding-top: 5%">
+          <span style="text-decoration: underline; margin-top: 1px">&</span
+          >bouqu
+        </h1>
+        <p
+          class="shape"
+          style="
+            font-size: 15px;
+            color: #ffffff;
+            text-decoration: underline !important;
+            text-decoration-color: rgba(255, 255, 0, 0.671) !important;
+            text-underline-offset: 10px !important;
+            font-weight: bold;
+          "
+        >
+          We
+          <span
+            style="
+              font-style: italic;
+              font-size: 15px;
+              line-height: 24px;
+              font-family: 'Circular Std', sans-serif;
+              color: #1aa18c;
+              letter-spacing: 2px;
+            "
+            >Shape</span
+          >
+          Your Narrative.
+        </p>
+      </div>
+
+      <div
+        style="padding-top: 4.5%"
+        class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-start px-5 mx-2 mx-md-0"
+      >
+        <ul
+          class="list-unstyled d-flex flex-md-column justify-content-center align-items-end gap-0 gap-md-3"
+        >
+          <li style="font-size: 16px; display: flex; align-items: center">
+            LinkedIn <i class="fa-solid fa-location-arrow mx-2"></i>
+          </li>
+          <li style="font-size: 16px; display: flex; align-items: center">
+            Instagram <i class="fa-solid fa-location-arrow mx-2"></i>
+          </li>
+          <li style="font-size: 16px; display: flex; align-items: center">
+            Discord <i class="fa-solid fa-location-arrow mx-2"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="padding-top: 4%">
+      <p style="color: #ffffff; font-size: 12px" class="text-center allright">
+        2024. All rights & Lefts reserved.
+      </p>
+      <hr class="mx-auto  mt-2" style="width: 55vw; border: 1px solid white;height: 0!important;" />
+    </div>
+  </div>
+
+  
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const backButton = document.getElementById("backBtn");
+        const nextButton = document.getElementById("nextBtn");
+
+        // Tab elements
+        const companyTab = document.getElementById("pills-home-tab");
+        const contactTab = document.getElementById("pills-contact-tab");
+        const submitTab = document.getElementById("pills-submit-tab");
+
+        // Function to activate a tab
+        function activateTab(tab) {
+          companyTab.classList.remove("active", "show");
+          contactTab.classList.remove("active", "show");
+          submitTab.classList.remove("active", "show");
+
+          tab.classList.add("active", "show");
+        }
+
+        // Next button functionality
+        nextButton.addEventListener("click", () => {
+          if (companyTab.classList.contains("active")) {
+            window.location.href = "../pages/contact-information.html"; 
+          } else if (contactTab.classList.contains("active")) {
+            window.location.href = "../pages/submit-details.html"; 
+          }
+        });
+
+          // Back button functionality
+        backButton.addEventListener("click", () => {
+          if (submitTab.classList.contains("active")) {
+            activateTab(contactTab);
+          } else if (contactTab.classList.contains("active")) {
+            activateTab(companyTab);
+          }
+        });
+      });
+    </script>
+  </body>
 </html>

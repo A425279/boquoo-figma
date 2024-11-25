@@ -1,28 +1,31 @@
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #121d2f !important;
-  color: #ffffff !important;
-}
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+/* ==========================  Active Bar Style ========================= */
+
+.nav-pills .nav-link.active {
+  background-color: #111d2f !important;
   color: #ffffff !important;
 }
 
-.nav-link {
-  color: #121d2f !important;
-}
 .nav-pills .nav-link {
-  background: 0 0;
-  border: 0;
+  background-color: transparent;
+  color: #344054;
+}
+
+.nav-pills .nav-link.active h6,
+.nav-pills .nav-link.active p {
+  color: #ffffff !important;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #f1f1f1;
+}
+button {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
 }
-#exampleFormControlInput1::placeholder {
-  color: rgba(102, 112, 133, 0.4) !important;
-}
+/* ==========================  Active Bar Style END ========================= */
 .form-control {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
@@ -57,7 +60,7 @@
   .paragraph {
     font-size: 17px !important;
   }
- 
+
   .logo1 {
     font-size: 45px !important;
   }
@@ -106,7 +109,7 @@
     width: 526px !important;
     margin: auto !important;
   }
-  
+
   .inpparent {
     width: 553px !important;
     height: 312px !important;
@@ -123,5 +126,4 @@
   li {
     height: 100% !important;
   }
- 
 }

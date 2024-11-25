@@ -11,6 +11,13 @@
 
 /* media --------------------- */
 @media (max-width: 576px) {
+  .modal-header h1{
+    font-size: 20px!important;
+    padding-top: 20px!important;
+  }
+  .modal-body p{
+    font-size: 13px!important;
+  }
   .logo1 {
     font-size: 45px !important;
   }

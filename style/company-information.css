@@ -1,145 +1,199 @@
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #121d2f !important;
+
+/* ==========================  Active Bar Style ========================= */
+  
+.nav-pills .nav-link.active {
+  background-color: #111D2F !important; 
+  color: #ffffff !important; 
+}
+
+button{
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+.nav-pills .nav-link h6 {
+  background-color: transparent; 
+  color: #344054c3;
+  font-family: 'Playfair Display' ,serif!important;
+  font-weight: 800;
+  font-size: 14px!important;
+  padding-top: 12px!important;
+
+}
+.nav-pills .nav-link p{
+  background-color: transparent; 
+  color: #344054c3;
+  font-family: 'Circular Std',sans-serif!important;
+  font-weight: 450;
+  font-size: 14px!important;
+  margin-top: -5px!important;
+
+}
+
+.nav-pills .nav-link.active h6,
+.nav-pills .nav-link.active p {
   color: #ffffff !important;
 }
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #ffffff !important;
+
+.nav-pills .nav-link:hover {
+  background-color: #f1f1f1; 
 }
+/* ==========================  Active Bar Style END ========================= */
 
 .nav-link {
-  color: #121d2f !important;
-}
-.nav-pills .nav-link {
-  background: 0 0;
-  border: 0;
-  border-radius: 0 !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  -ms-border-radius: 0 !important;
-  -o-border-radius: 0 !important;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 16px;
+  display: block;
+  text-align: center;
+  border: 1px solid transparent; 
+  
 }
 
-#exampleFormControlInput1::placeholder {
-  color: rgba(102, 112, 133, 0.4) !important;
+/* Styling for the dot image */
+.mx-auto {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid black;
+  background-color: #ffffff;
+  position: relative;
 }
 
-#exampleFormControlInput1 {
-  color: #000000 !important;
+.mx-auto img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+/* Container styles for the pill layout */
+.smrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  flex: 1;
+  text-align: center;
+}
+/* ==========================  Active Bar Style End ========================= */
 
 .form-control {
-  border-radius: 0 !important;
-  -webkit-border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
-  -ms-border-radius: 0 !important;
-  -o-border-radius: 0 !important;
-  border: 1px solid #000 !important;
+border-radius: 0 !important;
+-webkit-border-radius: 0 !important;
+-moz-border-radius: 0 !important;
+-ms-border-radius: 0 !important;
+-o-border-radius: 0 !important;
+border: 1px solid #000 !important;
 }
 
 @media (max-width: 576px) {
-  .btn1 {
-    min-width: 82vw !important;
-    height: 47px !important;
-  }
+.btn1 {
+  min-width: 82vw !important;
+  height: 47px !important;
+}
 
-  .logo {
-    width: 90px !important;
-  }
-  .paragraph {
-    font-size: 17px !important;
-  }
-  .paragraph2 {
-    font-size: 20px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    text-align: center !important;
-  }
-  .spantag {
-    font-size: 20px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;line-height: 0!important;
-    text-align: center !important;
-  }
-  .logo1 {
-    font-size: 45px !important;
-  }
-  .shape {
-    font-size: 11px !important;
-  }
-  #exampleFormControlInput1::placeholder {
-    font-size: 13px !important;
-  }
+.logo {
+  width: 90px !important;
+}
+.paragraph {
+  font-size: 17px !important;
+}
+.paragraph2 {
+  font-size: 20px !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  text-align: center !important;
+}
+.spantag {
+  font-size: 20px !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;line-height: 0!important;
+  text-align: center !important;
+}
+.logo1 {
+  font-size: 45px !important;
+}
+.shape {
+  font-size: 11px !important;
+}
+#exampleFormControlInput1::placeholder {
+  font-size: 13px !important;
+}
 }
 
 @media (max-width: 768px) {
-  ul li {
-    font-size: 13px !important;
-  }
+ul li {
+  font-size: 13px !important;
+}
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
-  .smrow{
-    width: 100%!important;
-  }
-  .col1{
-    max-width: 33.31%!important;
-  }
-  .paragraph{
-    font-size: 22px!important;
-  }
+.smrow{
+  width: 100%!important;
+}
+.col1{
+  max-width: 33.31%!important;
+}
+.paragraph{
+  font-size: 22px!important;
+}
 
-  .btn1 {
-    min-width: 55vw !important;
-    height: 47px !important;
-  }
-  .button {
-    width: 526px !important;
-    height: 158px !important;
-  }
-  ul {
-    width: 526px !important;
-    margin: auto !important;
-  }
-  .paragraph2 {
-    font-size: 30px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    text-align: center !important;
-  }
-  .spantag {
-    font-size: 30px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    line-height: 20px!important ;
-    text-align: center !important;
-  }
-  .inpparent {
-    width: 553px !important;
-    height: 312px !important;
-    margin: auto !important;
-  }
+.btn1 {
+  min-width: 55vw !important;
+  height: 47px !important;
+}
+.button {
+  width: 526px !important;
+  height: 158px !important;
+}
+ul {
+  width: 526px !important;
+  margin: auto !important;
+}
+.paragraph2 {
+  font-size: 30px !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  text-align: center !important;
+}
+.spantag {
+  font-size: 30px !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  line-height: 20px!important ;
+  text-align: center !important;
+}
+.inpparent {
+  width: 553px !important;
+  height: 312px !important;
+  margin: auto !important;
+}
 }
 @media (min-width: 992px) {
-  li {
-    height: 100% !important;
-  }
+li {
+  height: 100% !important;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  li {
-    height: 100% !important;
-  }
-  .paragraph2 {
-    font-size: 40px !important;
-    margin-left: 20% !important;
-    margin-top: 40% !important;
-  }
-  .spantag {
-    font-size: 40px !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    line-height: 50px!important ;
-  }
+li {
+  height: 100% !important;
+}
+.paragraph2 {
+  font-size: 40px !important;
+  margin-left: 20% !important;
+  margin-top: 40% !important;
+}
+.spantag {
+  font-size: 40px !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  line-height: 50px!important ;
+}
 }
