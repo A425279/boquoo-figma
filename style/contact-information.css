@@ -2,6 +2,9 @@
  
  /* ==========================  Active Bar Style ========================= */
   
+ #exampleFormControlInput1{
+  color: black!important;
+}
  button{
   border-radius: 0!important;
   -webkit-border-radius: 0!important;

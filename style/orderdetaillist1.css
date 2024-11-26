@@ -13,7 +13,7 @@ th {
   font-family: "Playfair", serif;
   font-weight: 500;
   font-size: 14px;
-  color: rgba(107, 114, 128, 1);
+  color: rgba(107, 114, 128, 0.581);
 }
 .images {
   width: 56px;
@@ -35,7 +35,7 @@ p {
   margin-bottom: 0px !important;
 }
 .fa-eye {
-  color: rgba(107, 114, 128, 0.819);
+  color: rgba(107, 114, 128, 0.767);
 
   font-size: 20px;
   padding-top: 27px !important;

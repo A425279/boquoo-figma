@@ -195,6 +195,9 @@
   .p11 {
     font-size: 12px !important;
   }
+  .button2{
+    min-width: 50vw!important;
+  }
 }
 
 .row {

@@ -175,7 +175,7 @@
         style="
           font-family: 'Circular Std', sans-serif;
           font-weight: 600;
-          font-size: 30px;
+          font-size: 35px;
           line-height: 80px;
           letter-spacing: -1px;
           color: #121d2f;
@@ -542,7 +542,7 @@
         class="col-12 col-md-4 d-flex flex-column align-items-center py-md-4"
       >
         <h1 class="logo1" style="font-size: 50px; padding-top: 5%">
-          <span style="text-decoration: underline; margin-top: 1px">&</span
+          <span style="text-decoration: underline; margin-top: 1px;margin-right: 5px;">&</span
           >bouqu
         </h1>
         <p
@@ -623,10 +623,16 @@
 
         // Next button functionality
         nextButton.addEventListener("click", () => {
-          if (companyTab.classList.contains("active")) {
+          if (companyTab.classList.contains("active")) 
+          {
             window.location.href = "../pages/contact-information.html"; 
-          } else if (contactTab.classList.contains("active")) {
+          }
+
+           else if (contactTab.classList.contains("active")) 
+          
+          {
             window.location.href = "../pages/submit-details.html"; 
+
           }
         });
 

@@ -5,6 +5,9 @@
   background-color: #111D2F !important; 
   color: #ffffff !important; 
 }
+#exampleFormControlInput1{
+  color: black!important;
+}
 
 button{
   border-radius: 0 !important;
