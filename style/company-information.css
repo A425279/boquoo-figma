@@ -1,15 +1,15 @@
-
 /* ==========================  Active Bar Style ========================= */
-  
+
 .nav-pills .nav-link.active {
-  background-color: #111D2F !important; 
-  color: #ffffff !important; 
-}
-#exampleFormControlInput1{
-  color: black!important;
+  background-color: #111D2F !important;
+  color: #ffffff !important;
 }
 
-button{
+#exampleFormControlInput1 {
+  color: black !important;
+}
+
+button {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -18,21 +18,22 @@ button{
 }
 
 .nav-pills .nav-link h6 {
-  background-color: transparent; 
+  background-color: transparent;
   color: #344054c3;
-  font-family: 'Playfair Display' ,serif!important;
+  font-family: 'Playfair Display', serif !important;
   font-weight: 800;
-  font-size: 14px!important;
-  padding-top: 12px!important;
+  font-size: 14px !important;
+  padding-top: 12px !important;
 
 }
-.nav-pills .nav-link p{
-  background-color: transparent; 
+
+.nav-pills .nav-link p {
+  background-color: transparent;
   color: #344054c3;
-  font-family: 'Circular Std',sans-serif!important;
+  font-family: 'Circular Std', sans-serif !important;
   font-weight: 450;
-  font-size: 14px!important;
-  margin-top: -5px!important;
+  font-size: 14px !important;
+  margin-top: -5px !important;
 
 }
 
@@ -42,8 +43,9 @@ button{
 }
 
 .nav-pills .nav-link:hover {
-  background-color: #f1f1f1; 
+  background-color: white !important;
 }
+
 /* ==========================  Active Bar Style END ========================= */
 
 .nav-link {
@@ -53,14 +55,13 @@ button{
   padding: 16px;
   display: block;
   text-align: center;
-  border: 1px solid transparent; 
-  
+  border: 1px solid transparent;
+
 }
 
 /* Styling for the dot image */
 .mx-auto {
   width: 24px;
-  height: 24px;
   border-radius: 50%;
   border: 1.5px solid black;
   background-color: #ffffff;
@@ -84,119 +85,137 @@ button{
   flex: 1;
   text-align: center;
 }
+
 /* ==========================  Active Bar Style End ========================= */
 
 .form-control {
-border-radius: 0 !important;
--webkit-border-radius: 0 !important;
--moz-border-radius: 0 !important;
--ms-border-radius: 0 !important;
--o-border-radius: 0 !important;
-border: 1px solid #000 !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+  border: 1px solid #000 !important;
 }
 
 @media (max-width: 576px) {
-.btn1 {
-  min-width: 82vw !important;
-  height: 47px !important;
-}
+  .btn1 {
+    min-width: 82vw !important;
+    height: 47px !important;
+  }
 
-.logo {
-  width: 90px !important;
-}
-.paragraph {
-  font-size: 17px !important;
-}
-.paragraph2 {
-  font-size: 20px !important;
-  margin-left: 0 !important;
-  margin-top: 0 !important;
-  text-align: center !important;
-}
-.spantag {
-  font-size: 20px !important;
-  margin-left: 0 !important;
-  margin-top: 0 !important;line-height: 0!important;
-  text-align: center !important;
-}
-.logo1 {
-  font-size: 45px !important;
-}
-.shape {
-  font-size: 11px !important;
-}
-#exampleFormControlInput1::placeholder {
-  font-size: 13px !important;
-}
+  .logo {
+    width: 90px !important;
+  }
+
+  .paragraph {
+    font-size: 17px !important;
+  }
+
+  .paragraph2 {
+    font-size: 20px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    text-align: center !important;
+  }
+
+  .spantag {
+    font-size: 20px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    line-height: 0 !important;
+    text-align: center !important;
+  }
+
+  .logo1 {
+    font-size: 45px !important;
+  }
+
+  .shape {
+    font-size: 11px !important;
+  }
+
+  #exampleFormControlInput1::placeholder {
+    font-size: 13px !important;
+  }
 }
 
 @media (max-width: 768px) {
-ul li {
-  font-size: 13px !important;
-}
+  ul li {
+    font-size: 13px !important;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
-.smrow{
-  width: 100%!important;
-}
-.col1{
-  max-width: 33.31%!important;
-}
-.paragraph{
-  font-size: 22px!important;
+  .smrow {
+    width: 100% !important;
+  }
+
+  .col1 {
+    max-width: 33.31% !important;
+  }
+
+  .paragraph {
+    font-size: 22px !important;
+  }
+
+  .btn1 {
+    min-width: 55vw !important;
+    height: 47px !important;
+  }
+
+  .button {
+    width: 526px !important;
+    height: 158px !important;
+  }
+
+  ul {
+    width: 526px !important;
+    margin: auto !important;
+  }
+
+  .paragraph2 {
+    font-size: 30px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    text-align: center !important;
+  }
+
+  .spantag {
+    font-size: 30px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    line-height: 20px !important;
+    text-align: center !important;
+  }
+
+  .inpparent {
+    width: 553px !important;
+    height: 312px !important;
+    margin: auto !important;
+  }
 }
 
-.btn1 {
-  min-width: 55vw !important;
-  height: 47px !important;
-}
-.button {
-  width: 526px !important;
-  height: 158px !important;
-}
-ul {
-  width: 526px !important;
-  margin: auto !important;
-}
-.paragraph2 {
-  font-size: 30px !important;
-  margin-left: 0 !important;
-  margin-top: 0 !important;
-  text-align: center !important;
-}
-.spantag {
-  font-size: 30px !important;
-  margin-left: 0 !important;
-  margin-top: 0 !important;
-  line-height: 20px!important ;
-  text-align: center !important;
-}
-.inpparent {
-  width: 553px !important;
-  height: 312px !important;
-  margin: auto !important;
-}
-}
 @media (min-width: 992px) {
-li {
-  height: 100% !important;
-}
+  li {
+    height: 100% !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-li {
-  height: 100% !important;
-}
-.paragraph2 {
-  font-size: 40px !important;
-  margin-left: 20% !important;
-  margin-top: 40% !important;
-}
-.spantag {
-  font-size: 40px !important;
-  margin-left: 0 !important;
-  margin-top: 0 !important;
-  line-height: 50px!important ;
-}
+  li {
+    height: 100% !important;
+  }
+
+  .paragraph2 {
+    font-size: 40px !important;
+    margin-left: 20% !important;
+    margin-top: 40% !important;
+  }
+
+  .spantag {
+    font-size: 40px !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    line-height: 50px !important;
+  }
 }

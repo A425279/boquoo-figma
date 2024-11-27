@@ -4,35 +4,81 @@
   box-sizing: border-box;
 }
 
-.modal-header, .modal-body,.modal-footer {
-  border: none!important; /* Border ko remove karne ke liye */
-  outline: none!important; /* Outline ko remove karne ke liye */
+
+/* Remove default chevron icon */
+.accordion-button:not(.collapsed)::after {
+  content: "+";
+  /* Adding a plus sign */
+  font-size: 30px;
+  /* Adjust size of the plus icon */
+  color: black;
+  /* Change color to black or any color you prefer */
+  margin-right: 0px !important;
+  /* Optional, to add space between the button text and icon */
+}
+
+/* Icon when collapsed */
+.accordion-button.collapsed::after {
+  content: "+";
+  margin-right: 0px !important;
+}
+
+.accordion {
+
+  --bs-accordion-btn-icon-width: 0rem !important;
+}
+/* Change the icon to '-' when expanded */
+.accordion-button.collapsed::after {
+  content: '-';
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: '+';
+}
+
+
+
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  border: none !important;
+  /* Border ko remove karne ke liye */
+  outline: none !important;
+  /* Outline ko remove karne ke liye */
 }
 
 /* media --------------------- */
 @media (max-width: 576px) {
-  .modal-header h1{
-    font-size: 20px!important;
-    padding-top: 20px!important;
+  .modal-header h1 {
+    font-size: 20px !important;
+    padding-top: 20px !important;
   }
-  .modal-body p{
-    font-size: 13px!important;
+
+  .modal-body p {
+    font-size: 13px !important;
   }
+
   .logo1 {
     font-size: 45px !important;
   }
-  ul li{
-    font-size: 15px!important;
+
+  ul li {
+    font-size: 15px !important;
   }
+
   .logo {
     width: 90px !important;
   }
+
   .shape {
     font-size: 11px !important;
   }
+
   .allright {
-    font-size: 12px !important ;
+    font-size: 12px !important;
   }
+
   .lastdiv {
     margin-top: 20px !important;
   }
@@ -45,29 +91,35 @@
 
   .head5 {
     font-size: 15px !important;
-    padding-left: 0!important;
+    padding-left: 0 !important;
   }
+
   .first {
     text-align: start !important;
     margin-right: 10px !important;
-    font-size: 17px!important;
+    font-size: 17px !important;
   }
+
   .second {
     text-align: start !important;
-    font-size: 17px!important;
+    font-size: 17px !important;
   }
+
   .similar {
     font-size: 20px !important;
   }
+
   .product {
     font-size: 18px !important;
   }
+
   .view {
     font-size: 12px !important;
     margin-left: -200% !important;
     height: 0 !important;
     line-height: 0 !important;
   }
+
   .cconf {
     margin-top: 5% !important;
   }
@@ -75,24 +127,30 @@
   .havep {
     line-height: 38px !important;
   }
+
   .largebtn {
     width: 105% !important;
   }
+
   .buttondiv {
     width: 32% !important;
   }
+
   .buttonrow {
     margin-top: 10px !important;
   }
 }
 
-@media (max-width:576px){
-  ul li{
-    font-size: 13px!important;
+@media (max-width: 576px) {
+  ul li {
+    font-size: 13px !important;
   }
-  .logo1{
-    font-size: 40px!important;
-  }.list-unstyled {
+
+  .logo1 {
+    font-size: 40px !important;
+  }
+
+  .list-unstyled {
     flex-direction: row !important;
     justify-content: flex-start;
   }
@@ -101,21 +159,26 @@
     gap: 1rem !important;
   }
 }
+
 @media (min-width: 577px) and (max-width: 767px) {
   .img1 {
     width: 512.31px !important;
     height: 59.5vh !important;
     padding: 13px !important;
   }
+
   .view {
     visibility: hidden !important;
   }
+
   .te {
     padding-top: 100px !important;
   }
+
   .head5 {
-    text-align: center !important;
+    padding-left: 0 !important;
   }
+
   .first {
     text-align: end !important;
     padding-right: 5px !important;
@@ -124,9 +187,11 @@
   .second {
     text-align: start !important;
   }
+
   .largebtn {
     width: 118% !important;
   }
+
   .havep {
     line-height: 78px !important;
   }
@@ -136,9 +201,11 @@
   .img1 {
     width: 290.95px !important;
   }
+
   .view {
     visibility: hidden !important;
   }
+
   .first {
     font-size: 15px !important;
     margin-right: 10px !important;
@@ -148,15 +215,41 @@
     text-align: start !important;
     font-size: 15px !important;
   }
+
   .head5 {
     font-size: 17px !important;
   }
+
   .largebtn {
     width: 93% !important;
     margin-left: 31px !important;
   }
+
   .havep {
     line-height: 78px !important;
   }
 }
-  
+
+@media (min-width: 992px) {
+  .largebtn {
+    width: 100% !important;
+    margin-left: 10px !important;
+  }
+}
+
+.accordion-body {
+  display: block !important;
+}
+
+.accordion-body-two {
+  display: none !important;
+}
+
+.accordion-body.show {
+  display: none !important;
+}
+
+.accordion-body-two.show {
+  display: inline-block !important;
+  padding: 20px;
+}

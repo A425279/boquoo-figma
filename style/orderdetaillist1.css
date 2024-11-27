@@ -4,21 +4,25 @@
   font-size: 24px;
   color: rgba(17, 24, 39, 1);
 }
+
 .form-control {
   width: 300px;
   padding-top: 14px;
   padding-bottom: 14px;
 }
+
 th {
   font-family: "Playfair", serif;
   font-weight: 500;
   font-size: 14px;
   color: rgba(107, 114, 128, 0.581);
 }
+
 .images {
   width: 56px;
   height: 56.02px;
 }
+
 .bouqotext {
   font-family: "Playfair", serif;
   font-weight: 550;
@@ -34,6 +38,7 @@ p {
   margin-top: 10px !important;
   margin-bottom: 0px !important;
 }
+
 .fa-eye {
   color: rgba(107, 114, 128, 0.767);
 
@@ -41,7 +46,7 @@ p {
   padding-top: 27px !important;
 }
 
-.table > :not(caption) > * > * {
+.table> :not(caption)>*>* {
   padding: 0.5rem 0.5rem;
   background-color: var(--bs-table-bg);
   border-bottom-width: 0px !important;
@@ -52,6 +57,11 @@ p {
   .main-container {
     padding: 1.5rem !important;
   }
+
+  .button1 {
+    margin-top: 30% !important;
+  }
+
 }
 
 /* media --------------------- */
@@ -64,9 +74,11 @@ p {
   .table {
     min-width: 600px;
   }
+
   p {
     font-size: 12px !important;
   }
+
   .img1 {
     width: 51px !important;
     height: 51px !important;
@@ -77,9 +89,7 @@ p {
     padding: 8px 12px;
     font-size: 12px;
   }
-  .button1 {
-    margin-top: 28% !important;
-  }
+
   .para {
     margin-top: 17px !important;
   }
@@ -87,26 +97,35 @@ p {
   .logo {
     width: 90px !important;
   }
+
   .logo1 {
     font-size: 45px !important;
   }
+
   .shape {
     font-size: 11px !important;
   }
+
   .allright {
-    font-size: 12px !important ;
+    font-size: 12px !important;
   }
+
   .myorder {
     font-size: 17px !important;
   }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 767px) {
   .logo {
     width: 90px !important;
   }
+
   .shape {
     font-size: 11px !important;
+  }
+
+  .button1 {
+    margin-top: 30% !important;
   }
 }
 
@@ -114,17 +133,23 @@ p {
   ul li {
     font-size: 13px !important;
   }
+
   .logo1 {
     font-size: 40px !important;
   }
+
   .list-unstyled {
     flex-direction: row !important;
     justify-content: flex-start;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width:768px) and (max-width:991px) {
+  .button1 {
+    margin-top: 34% !important;
+  }
 }
+
 
 .row {
   --bs-gutter-x: 0 !important;
