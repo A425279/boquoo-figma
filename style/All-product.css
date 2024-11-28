@@ -16,6 +16,73 @@
   -ms-border-radius:0 !important;
   -o-border-radius:0 !important;
 }
+/* img hover affect styling */
+
+.image-container {
+  position: relative;
+  overflow: hidden !important;
+}
+
+.image {
+  width: 100%;
+  transition: transform 0.2s ease, rotate 0.5s ease;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,
+      255,
+      255,
+      0.9);
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  opacity: 0;
+  height: 80px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-container:hover .image {
+  transform: scale(1);
+}
+
+.image-container:not(:hover) .image {
+  transform: scale(1.1) rotate(0deg);
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Circular Std', sans-serif;
+  text-align: left !important;
+  color: rgba(18, 29, 47, 1);
+}
+
+.subheading {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left !important;
+  line-height: 22px;
+  font-family: 'Circular Std', sans-serif;
+
+}
+
+
+
+
+
+
 /* media --------------------- */
 @media (max-width: 576px) {
   .heading {

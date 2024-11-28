@@ -2,7 +2,14 @@
   max-width: 245px !important;
 }
 
+.container {
+  overflow: hidden;
+}
+
 /* media --------------------- */
+
+
+
 @media (max-width: 576px) {
   .apple1 {
     width: 220px !important;
@@ -104,13 +111,17 @@
   }
 }
 
-@media (min-width:768px) and (max-width:991px){
-  .blankimg{
-    min-width: 686px!important;
+@media (min-width: 768px) and (max-width: 991px) {
+  .blankimg {
+    min-width: 504px !important;
     height: 270px !important;
-  }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+  }
 }
+
 
 @media (min-width: 577px) and (max-width: 767px) {
   .logo {
@@ -136,7 +147,7 @@
   }
 }
 
- 
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .blankimg {
     max-width: 100% !important;
