@@ -3,42 +3,137 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .row {
-   --bs-gutter-x:0 rem!important;
-   --bs-gutter-y: 0!important;
-  }
-
-/* Default state for the plus icon */
-.accordion-button:not(.collapsed)::after {
-  content: "+";
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.672);
-  display: inline-block;
-  transform: scaleX(1);
+   --bs-gutter-x:0!important  ;
 }
 
-/*  accordion is collapsed (minus sign) */
-.accordion-button.collapsed::after {
-  content: "-";
-  font-size: 25px;
-  color: rgba(0, 0, 0, 0.628);
-  display: inline-block;
-  transform: scaleX(1.3);
-  -webkit-transform: scaleX(1.3);
-  -moz-transform: scaleX(1.3);
-  -ms-transform: scaleX(1.3);
-  -o-transform: scaleX(1.3);
+/* img hover affect styling */
+
+.image-container {
+  position: relative;
+  overflow: hidden !important;
 }
 
+.image {
+  width: 100%;
+  transition: transform 0.5s ease, rotate 0.5s ease;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,
+      255,
+      255,
+      0.9);
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  opacity: 0;
+  height: 80px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-container:hover .image {
+  /* transform: scale(1); */
+   height: calc(100% - 80px);
+   
+  
+}
+
+.image-container:not(:hover) .image {
+  transform: scale(1.1) rotate(0deg);
+}
+
+.heading {
+  font-size: 20px!important;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'Circular Std', sans-serif;
+  text-align: left !important;
+  color: rgba(18, 29, 47, 1);
+}
+
+.subheading {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left !important;
+  line-height: 25px;
+  font-family: 'Circular Std', sans-serif;
+
+}
+
+
+/* img hover affect styling end */
+
+
+/* ==================== Accordion Styling ======================== */
+.accordion-button {
+  font-weight: bold;
+  font-size: 14px!important;
+  color:rgba(0, 0, 0, 1) !important;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  text-align: left;
+  padding: 15px;
+  position: relative;
+}
+
+
+.accordion-header {
+  border-bottom: 1px solid #121d2fce !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background: none !important;
+}
+
+.accordion-body {
+  font-size: 14px;
+  color: #555;
+  padding: 15px;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+/* Remove default arrow icon */
 .accordion-button::after {
-  flex-shrink: 0 !important;
-  width: auto !important;
-  height: auto !important;
+  display: none;
 }
 
-.accordion {
-  --bs-accordion-btn-icon-width: 0 !important;
+/* Custom + and - icons */
+.accordion-button::before {
+  content: "+";
+  font-size: 25px;
+  color: #000 !important;
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion-button:not(.collapsed)::before {
+  content: "-";
+  font-size: 30px!important;
+
 }
 
 
@@ -191,7 +286,7 @@
   }
 
   .second {
-    text-align: start !important;
+    text-align: center !important;
   }
 
   .largebtn {

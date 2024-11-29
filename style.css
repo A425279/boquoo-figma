@@ -21,8 +21,8 @@
 
 .image {
   width: 100%;
-  transition: transform 0.2s ease, rotate 0.5s ease;
-
+  transition: transform 0.5s ease, rotate 0.5s ease;
+  
 }
 
 .overlay {
@@ -49,8 +49,9 @@
 
 .image-container:hover .image {
   /* transform: scale(1); */
-  height: calc(100% - 80px);
-
+   height: calc(100% - 80px);
+   
+  
 }
 
 .image-container:not(:hover) .image {
@@ -58,7 +59,7 @@
 }
 
 .heading {
-  font-size: 24px;
+  font-size: 20px!important;
   line-height: 24px;
   font-weight: 400;
   margin: 0;
@@ -71,7 +72,7 @@
   font-size: 15px;
   font-weight: 300;
   text-align: left !important;
-  line-height: 22px;
+  line-height: 25px!important;
   font-family: 'Circular Std', sans-serif;
 
 }
