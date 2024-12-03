@@ -1,10 +1,5 @@
 /* ==========================  Active Bar Style ========================= */
 
-.row {
-  --bs-gutter-x:0 rem!important;
-  --bs-gutter-y: 0!important;
- }
-
 .nav-pills .nav-link.active {
   background-color: #111D2F !important;
   color: #ffffff !important;
@@ -13,7 +8,9 @@
 #exampleFormControlInput1 {
   color: black !important;
 }
-
+.dotimg{
+  position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background: black;width: 8px;height: 8px;border-radius: 50%;
+}
 button {
   border-radius: 0 !important;
   -webkit-border-radius: 0 !important;

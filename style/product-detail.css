@@ -17,6 +17,7 @@
 .image {
   width: 100%;
   transition: transform 0.5s ease, rotate 0.5s ease;
+  height: 100%;
   
 }
 
@@ -285,9 +286,7 @@
     padding-right: 5px !important;
   }
 
-  .second {
-    text-align: center !important;
-  }
+
 
   .largebtn {
     width: 118% !important;
@@ -322,20 +321,20 @@
   }
 
   .largebtn {
-    width: 93% !important;
-    margin-left: 31px !important;
-  }
+    width: 89% !important;
+    margin-left: 40px !important;
+}
 
   .havep {
     line-height: 78px !important;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px){
   .largebtn {
-    width: 100% !important;
-    margin-left: 10px !important;
-  }
+    width: 98% !important;
+    margin-left: 18px !important;
+}
 }
 
 .accordion-body {

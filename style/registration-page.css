@@ -1,8 +1,5 @@
 /* ==========================  Active Bar Style ========================= */
-.row {
-  --bs-gutter-x:0 rem!important;
-  --bs-gutter-y: 0!important;
- }
+
 
 .nav-pills .nav-link.active {
   background-color: #111d2f !important;

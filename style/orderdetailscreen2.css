@@ -38,6 +38,9 @@ span {
   font-weight: 500;
   /* color: rgba(52, 64, 84, 1); */
 }
+.andtag{
+  font-size:50px !important;
+}
 strong {
   font-family: "Circular Std", sans-serif;
   font-weight: 450;
@@ -134,6 +137,9 @@ strong {
   span,
   strong {
     font-size: 12px !important;
+  }
+  .andtag{
+    font-size:40px !important;
   }
 
   .main-container {

@@ -72,12 +72,20 @@
   .btn1parent {
     margin-top: 5% !important;
   }
+
+.headpara{
+  width: 90%!important;
+  margin-top: 10px!important;
+}
+
+
 }
 
 @media (max-width: 768px) {
   ul li {
     font-size: 13px !important;
   }
+ 
 }
 
 @media (min-width: 577px) and (max-width: 767px) {
@@ -86,8 +94,11 @@
       
         margin-right: auto !important;
         margin-left: auto !important;
-    
-  }
+    }
+    .headpara{
+      width: 440.39px!important;
+      margin-top: 10px!important;
+    }
   
   .title {
     padding-left: 50px !important;
